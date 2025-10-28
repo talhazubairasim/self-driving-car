@@ -37,6 +37,7 @@ This project is a hands-on self-driving car system built using computer vision a
    ```bash
    git clone https://github.com/talhazubairasim/self-driving-car.git
    cd self-driving-car
+   ````
 2. **Create and activate virtual environment:**
 python3 -m venv venv
 source venv/bin/activate       # Windows: venv\Scripts\activate
@@ -54,7 +55,8 @@ python run_simulation.py      # if running inference or simulator
 
 (Note: file names may differ in your repo — adapt accordingly.)
 
-🗂 Project Structure
+## 🗂 Project Structure
+````graphql
 self-driving-car/
 ├── data/            # Driving data: videos, images, labels  
 ├── models/          # Trained models (weights, checkpoints)  
@@ -66,8 +68,8 @@ self-driving-car/
 ├── run_simulation.py# Script to test/infer model  
 ├── requirements.txt # Dependencies  
 └── README.md
-
-✅ Usage Examples
+````
+## ✅ Usage Examples
 
 **Train a model:**
 python train_model.py --dataset data/drive_logs/ --epochs 30
