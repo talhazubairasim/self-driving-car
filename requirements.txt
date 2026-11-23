@@ -1,0 +1,5 @@
+numpy>=1.24
+torch>=2.0
+matplotlib>=3.7
+# Only needed for the interactive map (map.py):
+kivy>=2.2
